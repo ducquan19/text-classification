@@ -1,0 +1,80 @@
+================================================================================
+MODEL COMPARISON REPORT
+================================================================================
+
+Generated: 2026-02-19 23:49:47
+Number of models compared: 6
+
+--------------------------------------------------------------------------------
+RANKING BY TEST ACCURACY
+--------------------------------------------------------------------------------
+
+Rank #1: Logistic Regression
+  Test Accuracy:  0.9839
+  Test F1:        0.9836
+  Test Precision: 0.9837
+  Test Recall:    0.9839
+  Training Time:  0.49s
+  Timestamp:      2026-02-19T23:49:46.946202
+
+Rank #2: Naive Bayes
+  Test Accuracy:  0.9803
+  Test F1:        0.9805
+  Test Precision: 0.9808
+  Test Recall:    0.9803
+  Training Time:  0.52s
+  Timestamp:      2026-02-19T23:49:31.864931
+
+Rank #3: SVM
+  Test Accuracy:  0.9803
+  Test F1:        0.9801
+  Test Precision: 0.9800
+  Test Recall:    0.9803
+  Training Time:  0.10s
+  Timestamp:      2026-02-19T23:49:47.122459
+
+Rank #4: KNN (k=3)
+  Test Accuracy:  0.9337
+  Test F1:        0.9223
+  Test Precision: 0.9358
+  Test Recall:    0.9337
+  Training Time:  0.03s
+  Timestamp:      2026-02-19T23:49:38.528365
+
+Rank #5: KNN (k=5)
+  Test Accuracy:  0.9247
+  Test F1:        0.9079
+  Test Precision: 0.9306
+  Test Recall:    0.9247
+  Training Time:  0.03s
+  Timestamp:      2026-02-19T23:49:42.425928
+
+Rank #6: KNN (k=7)
+  Test Accuracy:  0.9211
+  Test F1:        0.9022
+  Test Precision: 0.9276
+  Test Recall:    0.9211
+  Training Time:  0.05s
+  Timestamp:      2026-02-19T23:49:46.351995
+
+--------------------------------------------------------------------------------
+DETAILED COMPARISON TABLE
+--------------------------------------------------------------------------------
+
+              Model                  Timestamp  Training Time (s)  Train Size  Val Size  Test Size  Train Accuracy  Val Accuracy  Test Accuracy  Test Precision  Test Recall  Test F1
+Logistic Regression 2026-02-19T23:49:46.946202           0.491506        3899      1115        558        0.994614      0.983857       0.983871        0.983693     0.983871 0.983584
+        Naive Bayes 2026-02-19T23:49:31.864931           0.519464        3899      1115        558        0.992819      0.982063       0.980287        0.980805     0.980287 0.980482
+                SVM 2026-02-19T23:49:47.122459           0.096118        3899      1115        558        1.000000      0.983857       0.980287        0.980010     0.980287 0.980080
+          KNN (k=3) 2026-02-19T23:49:38.528365           0.029551        3899      1115        558        0.944345      0.920179       0.933692        0.935797     0.933692 0.922349
+          KNN (k=5) 2026-02-19T23:49:42.425928           0.027328        3899      1115        558        0.918441      0.907623       0.924731        0.930629     0.924731 0.907886
+          KNN (k=7) 2026-02-19T23:49:46.351995           0.049407        3899      1115        558        0.907669      0.898655       0.921147        0.927596     0.921147 0.902176
+
+--------------------------------------------------------------------------------
+BEST MODEL SUMMARY
+--------------------------------------------------------------------------------
+
+Model: Logistic Regression
+Test Accuracy: 0.9839
+Test F1 Score: 0.9836
+Training Time: 0.49s
+
